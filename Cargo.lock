@@ -4,11 +4,11 @@ version = 4
 
 [[package]]
 name = "rlui"
-version = "0.1.0"
+version = "0.1.0-alpha"
 dependencies = [
  "rlui-core",
 ]
 
 [[package]]
 name = "rlui-core"
-version = "0.1.0"
+version = "0.1.0-alpha"

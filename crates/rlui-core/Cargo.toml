@@ -1,7 +1,11 @@
 [package]
 name = "rlui-core"
-version = "0.1.0"
+description = "The core of `Rlui`"
+version = "0.1.0-alpha"
 edition = "2024"
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/23Marbles/rlui"
+keywords = ["uikit", "terminal", "framework"]
+categories = ["command-line-interface"]
 
 [dependencies]
