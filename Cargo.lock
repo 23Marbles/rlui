@@ -3,12 +3,18 @@
 version = 4
 
 [[package]]
-name = "rlui"
+name = "Rlui"
 version = "0.1.0-alpha"
 dependencies = [
- "rlui-core",
+ "rlui-core 0.1.0-alpha.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "rlui-core"
-version = "0.1.0-alpha"
+version = "0.1.0-alpha.1"
+
+[[package]]
+name = "rlui-core"
+version = "0.1.0-alpha.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "449a86d0c0933caded5c116051baf9b53ff2af69c7213405f9ac90dd11e4bbf2"

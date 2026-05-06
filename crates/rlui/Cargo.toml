@@ -1,5 +1,5 @@
 [package]
-name = "rlui"
+name = "Rlui"
 description = "A rust line editing ui toolkit"
 version = "0.1.0-alpha"
 edition = "2024"
@@ -10,4 +10,4 @@ categories = ["command-line-interface"]
 readme = "../../README.md"
 
 [dependencies]
-rlui-core = { path = "../rlui-core" }
+rlui-core = "0.1.0-alpha.1"
