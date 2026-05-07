@@ -9,3 +9,5 @@ keywords = ["uikit", "terminal", "framework"]
 categories = ["command-line-interface"]
 
 [dependencies]
+crossterm = "0.29.0"
+num-traits = "0.2.19"
