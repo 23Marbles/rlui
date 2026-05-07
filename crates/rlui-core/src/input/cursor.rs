@@ -14,13 +14,13 @@ pub trait Cursor<I: IntPos> {
 
     /// Go directly to a specific position.
     fn goto(&mut self, pos: Pos<I>) {
-        self.goto_column(pos.col);
         self.goto_row(pos.row);
+        self.goto_column(pos.col);
     }
 
     fn move_by(&mut self, row_delta: I::Signed, column_delta: I::Signed) {
-        self.move_by_columns(column_delta);
         self.move_by_rows(row_delta);
+        self.move_by_columns(column_delta);
     }
 
     /// Move by a certain number of rows.
